@@ -1,0 +1,16 @@
+% Sem padrões portugueses no TeX local: desliga a hifenização automática e
+% usa apenas os hífens discricionários (U+00AD) inseridos pelo preparar.py.
+\usepackage{newunicodechar}
+\newunicodechar{^^^^00ad}{\-}
+\makeatletter\AtBeginDocument{\language=\l@nohyphenation\lefthyphenmin=2\righthyphenmin=3}\makeatother
+\usepackage{unicode-math}
+\setmathfont{Latin Modern Math}
+\usepackage{caption}
+\captionsetup[figure]{labelformat=empty, font=small, justification=justified, singlelinecheck=false, skip=6pt}
+\usepackage{float}
+\floatplacement{figure}{H}
+\usepackage{xurl}
+\usepackage{microtype}
+\setlength{\emergencystretch}{2em}
+\renewcommand{\arraystretch}{1.15}
+\usepackage{needspace}

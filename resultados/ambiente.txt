@@ -1,0 +1,6 @@
+Python: 3.12.10 (CPython)
+Sistema: Windows-11-10.0.26200-SP0
+Gerador: random.Random (Mersenne Twister MT19937), biblioteca padrão
+Sorteio da parada: rng.randrange(5), três chamadas por rodada, ordem rolo 1, 2, 3
+rich: 15.0.0
+matplotlib: 3.11.2
